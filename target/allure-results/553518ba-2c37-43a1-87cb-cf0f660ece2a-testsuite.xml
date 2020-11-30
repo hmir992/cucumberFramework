@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1606748602997" stop="1606748623679" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>As a Ryanair user I login, attempt to make book a flight with invalid card information</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1606748603004" stop="1606748623678" status="failed">
+            <name>Login into Ryanair, Book a flight, enter invalid card information and payment is declined</name>
+            <title>Login into Ryanair, Book a flight, enter invalid card information and payment is declined</title>
+            <description type="text"></description>
+            <failure>
+                <message>AssertionFailedError: Unable to wait and click on the WebElement, using locator: &lt;[[ChromeDriver: chrome on XP (b8ee0f394439e8cb9f1ecc548b65123f)] -&gt; xpath: (//div[@class='VfPpkd-Jh9lGc'])[1]]&gt;</message>
+                <stack-trace>junit.framework.AssertionFailedError: Unable to wait and click on the WebElement, using locator: &lt;[[ChromeDriver: chrome on XP (b8ee0f394439e8cb9f1ecc548b65123f)] -&gt; xpath: (//div[@class='VfPpkd-Jh9lGc'])[1]]&gt;
+	at junit.framework.Assert.fail(Assert.java:57)
+	at com.cucumberFramework.helper.SeleniumUtils.waitAndClickElement(SeleniumUtils.java:64)
+	at com.cucumberFramework.pageObjects.RyanairHomePage.loginToAccountViaGoogle(RyanairHomePage.java:144)
+	at com.cucumberFramework.stepdefinitions.RyanAirProjectStepDefinitions.IMakeABooking(RyanAirProjectStepDefinitions.java:37)
+	at ✽.Given I make a booking from "DUB" to "SXF" on 12/03/2020 for 2 adults and 1 child(src/test/resources/features/example/example_payment_decline.feature:5)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1606748606987" stop="1606748622678" status="failed">
+                    <name>Given I make a booking from "DUB" to "SXF" on 12/03/2020 for 2 adults and 1 child</name>
+                    <title>Given I make a booking from "DUB" to "SXF" on 12/03/2020 for 2 adults and 1 child</title>
+                </step>
+                <step start="1606748622679" stop="1606748622680" status="canceled">
+                    <name>When I pay for booking with card details "5555 5555 5555 5557" , 10/21 and "265"</name>
+                    <title>When I pay for booking with card details "5555 5555 5555 5557" , 10/21 and "265"</title>
+                </step>
+                <step start="1606748622680" stop="1606748622680" status="canceled">
+                    <name>Then I should get payment declined message</name>
+                    <title>Then I should get payment declined message</title>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="attachment0" source="66a6a638-4725-4a2e-8d69-7d2937e40c32-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="story" value="Login into Ryanair, Book a flight, enter invalid card information and payment is declined"/>
+                <label name="feature" value="As a Ryanair user I login, attempt to make book a flight with invalid card information"/>
+                <label name="host" value="ND9VS3X2"/>
+                <label name="thread" value="37800@ND9VS3X2.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="As a Ryanair user I login, attempt to make book a flight with invalid card information"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

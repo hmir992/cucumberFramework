@@ -1,0 +1,80 @@
+{
+  "hash" : "e7105c43ada45c9f6e0006854ef1a1d95249231d",
+  "plugins" : {
+    "total" : {
+      "statistic" : {
+        "total" : 2,
+        "passed" : 1,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 1,
+        "broken" : 0
+      },
+      "time" : {
+        "start" : 1606760066514,
+        "stop" : 1606760187992,
+        "duration" : 121478
+      }
+    },
+    "defects" : {
+      "totalCount" : 1,
+      "items" : [ {
+        "count" : 1,
+        "uid" : "de6b5cd92735c07c",
+        "message" : "AssertionFailedError: Unable to wait and click on the WebElement, using locator: <[[ChromeDriver: chrome on XP (fe343a6642ae5448cdbcd8c7947245c5)] -> xpath: (//div[@class='_label'])[2]]>",
+        "status" : "FAILED"
+      } ]
+    },
+    "xunit" : {
+      "totalCount" : 2,
+      "items" : [ {
+        "uid" : "62e6e4f8ffe04ce9",
+        "title" : "As a ryanair user I do not login and attempt to make book a flight login popup is displayed",
+        "statistic" : {
+          "total" : 1,
+          "passed" : 1,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 0
+        }
+      }, {
+        "uid" : "92605fe47b738f5c",
+        "title" : "As a ryanair user I login, attempt to make book a flight and payment is declined",
+        "statistic" : {
+          "total" : 1,
+          "passed" : 0,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 1,
+          "broken" : 0
+        }
+      } ]
+    },
+    "behaviors" : {
+      "totalCount" : 2,
+      "items" : [ {
+        "title" : "As a Ryanair user I do not login and attempt to make book a flight login popup is displayed",
+        "statistic" : {
+          "total" : 1,
+          "passed" : 1,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 0
+        }
+      }, {
+        "title" : "As a Ryanair user I login, attempt to make book a flight and payment is declined",
+        "statistic" : {
+          "total" : 1,
+          "passed" : 0,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 1,
+          "broken" : 0
+        }
+      } ]
+    },
+    "environment" : [ ]
+  }
+}

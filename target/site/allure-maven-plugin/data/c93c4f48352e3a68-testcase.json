@@ -1,0 +1,92 @@
+{
+  "uid" : "c93c4f48352e3a68",
+  "name" : "Book a flight, without Logging into RyanAir and assert login popup",
+  "title" : "Book a flight, without Logging into RyanAir and assert login popup",
+  "time" : {
+    "start" : 1606760132809,
+    "stop" : 1606760187992,
+    "duration" : 55183
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 2
+  },
+  "failure" : null,
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "62e6e4f8ffe04ce9",
+    "name" : "As a Ryanair user I do not login and attempt to make book a flight login popup is displayed",
+    "title" : "As a ryanair user I do not login and attempt to make book a flight login popup is displayed"
+  },
+  "steps" : [ {
+    "name" : "Given I make a booking from DUB to BER on 12/03/2020 for 2 adults and 1 child",
+    "title" : "Given I make a booking from DUB to BER on 12/03/2020 for 2 adults and 1 child",
+    "time" : {
+      "start" : 1606760136031,
+      "stop" : 1606760183616,
+      "duration" : 47585
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then I should get the login required popup",
+    "title" : "Then I should get the login required popup",
+    "time" : {
+      "start" : 1606760183617,
+      "stop" : 1606760186784,
+      "duration" : 3167
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "attachment0",
+    "source" : "af30018b-0144-405f-a072-69fbe2ae7987-attachment.png",
+    "type" : "image/png",
+    "size" : 196118,
+    "uid" : "df99bc97dcfe6ec4"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "host",
+    "value" : "ND9VS3X2"
+  }, {
+    "name" : "thread",
+    "value" : "11620@ND9VS3X2.main(1)"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "story",
+    "value" : "Book a flight, without Logging into RyanAir and assert login popup"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "feature",
+    "value" : "As a Ryanair user I do not login and attempt to make book a flight login popup is displayed"
+  }, {
+    "name" : "suite-name",
+    "value" : "As a Ryanair user I do not login and attempt to make book a flight login popup is displayed"
+  } ],
+  "parameters" : [ ]
+}

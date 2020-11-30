@@ -1,0 +1,29 @@
+{
+  "defectsList" : [ {
+    "title" : "Product defects",
+    "status" : "FAILED",
+    "defects" : [ {
+      "uid" : "de6b5cd92735c07c",
+      "failure" : {
+        "message" : "AssertionFailedError: Unable to wait and click on the WebElement, using locator: <[[ChromeDriver: chrome on XP (fe343a6642ae5448cdbcd8c7947245c5)] -> xpath: (//div[@class='_label'])[2]]>",
+        "stackTrace" : "junit.framework.AssertionFailedError: Unable to wait and click on the WebElement, using locator: <[[ChromeDriver: chrome on XP (fe343a6642ae5448cdbcd8c7947245c5)] -> xpath: (//div[@class='_label'])[2]]>\n\tat junit.framework.Assert.fail(Assert.java:57)\n\tat com.cucumberFramework.helper.SeleniumUtils.waitAndClickElement(SeleniumUtils.java:64)\n\tat com.cucumberFramework.pageObjects.ContactDetailsPage.enterPhoneNumberAndUnCheckBoxes(ContactDetailsPage.java:146)\n\tat com.cucumberFramework.pageObjects.ContactDetailsPage.enterCardDetailsAndClickPayNow(ContactDetailsPage.java:102)\n\tat com.cucumberFramework.stepdefinitions.RyanAirProjectStepDefinitions.IPayForBookingWithCardDetails(RyanAirProjectStepDefinitions.java:55)\n\tat ✽.When I pay for booking with card details \"5555 5555 5555 5557\" , 10/21 and \"265\"(src/test/resources/features/ryanair/ryanair_payment_test.feature:5)\n"
+      },
+      "testCases" : [ {
+        "uid" : "c8c071023cde82aa",
+        "name" : "Login into Ryanair, Book a flight, enter invalid card information and payment is declined",
+        "title" : "Login into Ryanair, Book a flight, enter invalid card information and payment is declined",
+        "time" : {
+          "start" : 1606760066514,
+          "stop" : 1606760132623,
+          "duration" : 66109
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    } ]
+  }, {
+    "title" : "Test defects",
+    "status" : "BROKEN",
+    "defects" : [ ]
+  } ]
+}

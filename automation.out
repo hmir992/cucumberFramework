@@ -1,0 +1,4 @@
+2020-11-30 18:11:275 WARN  RyanAirProjectStepDefinitions:42 - Note: there is a bug with the login both implemented via ryanair method and google method but disabled for the tests as its not working
+2020-11-30 19:11:462 INFO  ServiceHooks:45 - Login into Ryanair, Book a flight, enter invalid card information and payment is declined is Failed
+2020-11-30 19:11:928 WARN  RyanAirProjectStepDefinitions:42 - Note: there is a bug with the login both implemented via ryanair method and google method but disabled for the tests as its not working
+2020-11-30 19:11:793 INFO  ServiceHooks:54 - Book a flight, without Logging into RyanAir and assert login popup is pass

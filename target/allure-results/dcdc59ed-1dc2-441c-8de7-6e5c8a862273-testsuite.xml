@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1606750446940" stop="1606750550187" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>As a Ryanair user I login, attempt to make book a flight with invalid card information</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1606750446946" stop="1606750550185" status="passed">
+            <name>Login into Ryanair, Book a flight, enter invalid card information and payment is declined</name>
+            <title>Login into Ryanair, Book a flight, enter invalid card information and payment is declined</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1606750450766" stop="1606750538441" status="passed">
+                    <name>Given I make a booking from "DUB" to "SXF" on 12/03/2020 for 2 adults and 1 child</name>
+                    <title>Given I make a booking from "DUB" to "SXF" on 12/03/2020 for 2 adults and 1 child</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1606750538442" stop="1606750544844" status="passed">
+                    <name>When I pay for booking with card details "5555 5555 5555 5557" , 10/21 and "265"</name>
+                    <title>When I pay for booking with card details "5555 5555 5555 5557" , 10/21 and "265"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1606750544845" stop="1606750549030" status="passed">
+                    <name>Then I should get payment declined message</name>
+                    <title>Then I should get payment declined message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="attachment0" source="6b64d9bd-5413-4985-97f5-b8baed9129b0-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="story" value="Login into Ryanair, Book a flight, enter invalid card information and payment is declined"/>
+                <label name="feature" value="As a Ryanair user I login, attempt to make book a flight with invalid card information"/>
+                <label name="host" value="ND9VS3X2"/>
+                <label name="thread" value="10860@ND9VS3X2.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="As a Ryanair user I login, attempt to make book a flight with invalid card information"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

@@ -1,0 +1,68 @@
+{
+  "time" : {
+    "start" : 1606760066514,
+    "stop" : 1606760187992,
+    "duration" : 121478
+  },
+  "testSuites" : [ {
+    "uid" : "92605fe47b738f5c",
+    "name" : "As a Ryanair user I login, attempt to make book a flight and payment is declined",
+    "title" : "As a ryanair user I login, attempt to make book a flight and payment is declined",
+    "time" : {
+      "start" : 1606760066514,
+      "stop" : 1606760132623,
+      "duration" : 66109
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 0,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 1,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "c8c071023cde82aa",
+      "name" : "Login into Ryanair, Book a flight, enter invalid card information and payment is declined",
+      "title" : "Login into Ryanair, Book a flight, enter invalid card information and payment is declined",
+      "time" : {
+        "start" : 1606760066514,
+        "stop" : 1606760132623,
+        "duration" : 66109
+      },
+      "severity" : "NORMAL",
+      "status" : "FAILED"
+    } ]
+  }, {
+    "uid" : "62e6e4f8ffe04ce9",
+    "name" : "As a Ryanair user I do not login and attempt to make book a flight login popup is displayed",
+    "title" : "As a ryanair user I do not login and attempt to make book a flight login popup is displayed",
+    "time" : {
+      "start" : 1606760132809,
+      "stop" : 1606760187992,
+      "duration" : 55183
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "c93c4f48352e3a68",
+      "name" : "Book a flight, without Logging into RyanAir and assert login popup",
+      "title" : "Book a flight, without Logging into RyanAir and assert login popup",
+      "time" : {
+        "start" : 1606760132809,
+        "stop" : 1606760187992,
+        "duration" : 55183
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  } ]
+}

@@ -1,0 +1,71 @@
+{
+  "features" : [ {
+    "title" : "As a Ryanair user I login, attempt to make book a flight and payment is declined",
+    "statistic" : {
+      "total" : 1,
+      "passed" : 0,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 1,
+      "broken" : 0
+    },
+    "stories" : [ {
+      "uid" : "1a21df6eb79c2d86",
+      "title" : "Login into Ryanair, Book a flight, enter invalid card information and payment is declined",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 0,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 1,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "c8c071023cde82aa",
+        "name" : "Login into Ryanair, Book a flight, enter invalid card information and payment is declined",
+        "title" : "Login into Ryanair, Book a flight, enter invalid card information and payment is declined",
+        "time" : {
+          "start" : 1606760066514,
+          "stop" : 1606760132623,
+          "duration" : 66109
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    } ]
+  }, {
+    "title" : "As a Ryanair user I do not login and attempt to make book a flight login popup is displayed",
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "stories" : [ {
+      "uid" : "c6a5dd488e29f27",
+      "title" : "Book a flight, without Logging into RyanAir and assert login popup",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 1,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "c93c4f48352e3a68",
+        "name" : "Book a flight, without Logging into RyanAir and assert login popup",
+        "title" : "Book a flight, without Logging into RyanAir and assert login popup",
+        "time" : {
+          "start" : 1606760132809,
+          "stop" : 1606760187992,
+          "duration" : 55183
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}

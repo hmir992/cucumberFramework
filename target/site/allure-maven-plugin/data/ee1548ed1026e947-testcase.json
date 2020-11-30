@@ -1,0 +1,110 @@
+{
+  "uid" : "ee1548ed1026e947",
+  "name" : "Login into Ryanair, Book a flight, enter invalid card information and payment is declined",
+  "title" : "Login into Ryanair, Book a flight, enter invalid card information and payment is declined",
+  "time" : {
+    "start" : 1606738315868,
+    "stop" : 1606738330594,
+    "duration" : 14726
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 3
+  },
+  "failure" : {
+    "message" : "AssertionFailedError: Unable to wait and click on the WebElement, using locator: <[[ChromeDriver: chrome on XP (d1f081657787de5a594344f46c9fbc6b)] -> xpath: (//button[@class='trip-type__button ng-star-inserted'])[2]]>",
+    "stackTrace" : "junit.framework.AssertionFailedError: Unable to wait and click on the WebElement, using locator: <[[ChromeDriver: chrome on XP (d1f081657787de5a594344f46c9fbc6b)] -> xpath: (//button[@class='trip-type__button ng-star-inserted'])[2]]>\n\tat junit.framework.Assert.fail(Assert.java:57)\n\tat com.cucumberFramework.helper.SeleniumUtils.waitAndClickElement(SeleniumUtils.java:64)\n\tat com.cucumberFramework.pageObjects.RyanairHomePage.selectFlightInformationAndClickSearch(RyanairHomePage.java:91)\n\tat com.cucumberFramework.stepdefinitions.RyanAirProjectStepDefinitions.IMakeABooking(RyanAirProjectStepDefinitions.java:37)\n\tat ✽.Given I make a booking from \"DUB\" to \"SXF\" on 12/03/2020 for 2 adults and 1 child(src/test/resources/features/example/example_payment_decline.feature:5)\n"
+  },
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "suite" : {
+    "uid" : "ad40ae26df00f2c7",
+    "name" : "As a Ryanair user I login, attempt to make book a flight with invalid card information",
+    "title" : "As a ryanair user I login, attempt to make book a flight with invalid card information"
+  },
+  "steps" : [ {
+    "name" : "Given I make a booking from \"DUB\" to \"SXF\" on 12/03/2020 for 2 adults and 1 child",
+    "title" : "Given I make a booking from \"DUB\" to \"SXF\" on 12/03/2020 for 2 adults and 1 child",
+    "time" : {
+      "start" : 1606738319779,
+      "stop" : 1606738329426,
+      "duration" : 9647
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "FAILED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When I pay for booking with card details \"5555 5555 5555 5557\" , 10/21 and \"265\"",
+    "title" : "When I pay for booking with card details \"5555 5555 5555 5557\" , 10/21 and \"265\"",
+    "time" : {
+      "start" : 1606738329427,
+      "stop" : 1606738329427,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "CANCELED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then I should get payment declined message",
+    "title" : "Then I should get payment declined message",
+    "time" : {
+      "start" : 1606738329428,
+      "stop" : 1606738329428,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "CANCELED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "attachment0",
+    "source" : "e32350a0-b91b-4254-b466-e13735a26f6f-attachment.png",
+    "type" : "image/png",
+    "size" : 320449,
+    "uid" : "4c931cb411317f01"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "host",
+    "value" : "ND9VS3X2"
+  }, {
+    "name" : "suite-name",
+    "value" : "As a Ryanair user I login, attempt to make book a flight with invalid card information"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "story",
+    "value" : "Login into Ryanair, Book a flight, enter invalid card information and payment is declined"
+  }, {
+    "name" : "thread",
+    "value" : "13804@ND9VS3X2.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "As a Ryanair user I login, attempt to make book a flight with invalid card information"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  } ],
+  "parameters" : [ ]
+}

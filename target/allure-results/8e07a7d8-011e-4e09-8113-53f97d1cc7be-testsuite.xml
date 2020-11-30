@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1606760663883" stop="1606760718307" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>As a Ryanair user I do not login and attempt to make book a flight login popup is displayed</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1606760663884" stop="1606760718306" status="passed">
+            <name>Book a flight, without Logging into RyanAir and assert login popup</name>
+            <title>Book a flight, without Logging into RyanAir and assert login popup</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1606760667066" stop="1606760714112" status="passed">
+                    <name>Given I make a booking from DUB to BER on 12/03/2020 for 2 adults and 1 child</name>
+                    <title>Given I make a booking from DUB to BER on 12/03/2020 for 2 adults and 1 child</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1606760714113" stop="1606760717204" status="passed">
+                    <name>Then I should get the login required popup</name>
+                    <title>Then I should get the login required popup</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="attachment0" source="fd5ea857-75ed-46ce-bcd4-4840ed4500eb-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="story" value="Book a flight, without Logging into RyanAir and assert login popup"/>
+                <label name="feature" value="As a Ryanair user I do not login and attempt to make book a flight login popup is displayed"/>
+                <label name="host" value="ND9VS3X2"/>
+                <label name="thread" value="13804@ND9VS3X2.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="As a Ryanair user I do not login and attempt to make book a flight login popup is displayed"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

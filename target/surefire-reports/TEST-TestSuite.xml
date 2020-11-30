@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="93.115" tests="2" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\bin"/>
+    <property name="java.vm.version" value="25.231-b11"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\MirH\Downloads\Cucumber-BDD-Automation-Framework-master\Cucumber-BDD-Automation-Framework-master"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\MirH\Downloads\Cucumber-BDD-Automation-Framework-master\Cucumber-BDD-Automation-Framework-master"/>
+    <property name="java.runtime.version" value="1.8.0_231-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\MirH\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\apache-maven-3.6.2\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_231\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\ConEmu\ConEmu\Scripts;C:\Program Files\ConEmu;C:\Program Files\ConEmu\ConEmu;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Airtame;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Program Files (x86)\Android\android-sdk\platform-tools;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Users\MirH\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\MirH\AppData\Local\Programs\Python\Python38\;C:\Ruby26-x64\bin;C:\Users\MirH\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2.4\bin;C:\apache-maven-3.6.2\bin;C:\Program Files\Java\jdk1.8.0_231\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Users\MirH\AppData\Roaming\npm;C:\Program Files\MongoDB\Server\4.2\bin;C:\Users\MirH\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2020.1\bin;."/>
+    <property name="maven.conf" value="C:\apache-maven-3.6.2\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\apache-maven-3.6.2\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\MirH"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="MirH"/>
+    <property name="java.class.path" value="C:\apache-maven-3.6.2\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_231\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_231"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_231\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp850"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\apache-maven-3.6.2\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp850"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="feature" classname="com.cucumberFramework.testRunner.TestRunner1" time="52.063">
+    <failure message="junit.framework.AssertionFailedError: Unable to wait and click on the WebElement, using locator: &lt;[[ChromeDriver: chrome on XP (aec80868b6648f416a1686bc6740df13)] -&gt; xpath: (//div[@class=&apos;_label&apos;])[2]]&gt;" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: junit.framework.AssertionFailedError: Unable to wait and click on the WebElement, using locator: &lt;[[ChromeDriver: chrome on XP (aec80868b6648f416a1686bc6740df13)] -&gt; xpath: (//div[@class='_label'])[2]]&gt;	at com.cucumberFramework.testRunner.TestRunner1.feature(TestRunner1.java:27)Caused by: junit.framework.AssertionFailedError: Unable to wait and click on the WebElement, using locator: &lt;[[ChromeDriver: chrome on XP (aec80868b6648f416a1686bc6740df13)] -&gt; xpath: (//div[@class='_label'])[2]]&gt;</failure>
+    <system-out><![CDATA[Feature: As a Ryanair user I login, attempt to make book a flight and payment is declined
+
+  @test1
+  Scenario Outline: Login into Ryanair, Book a flight, enter invalid card information and payment is declined # src/test/resources/features/ryanair/ryanair_payment_test.feature:3
+    Given I make a booking from DUB to BER on 12/03/2020 for 2 adults and 1 child
+    When I pay for booking with card details "<cardNumber>" , 10/21 and "<cvv>"
+    Then I should get payment declined message
+
+    Examples: 
+2020-11-30 18:11:275 WARN  RyanAirProjectStepDefinitions :42 - Note: there is a bug with the login both implemented via ryanair method and google method but disabled for the tests as its not working
+Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (aec80868b6648f416a1686bc6740df13)] -> xpath: (//button[@class='trip-type__button ng-star-inserted'])[2]]]]><![CDATA[>
+Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (aec80868b6648f416a1686bc6740df13)] -> xpath: (//input[@class='input-button__input ng-star-inserted'])[2]]]]><![CDATA[>
+Successfully clicked on the WebElement: <Proxy element for: DefaultElementLocator 'By.xpath: (//span[contains(text(),'Germany')])[1]'>
+Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (aec80868b6648f416a1686bc6740df13)] -> xpath: (//span[contains(text(),' Berlin Brandenburg ')])[1]]]]><![CDATA[>
+Successfully clicked on the WebElement: <Proxy element for: DefaultElementLocator 'By.xpath: (//div[contains(text(),'Mar')])[1]'>
+Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (aec80868b6648f416a1686bc6740df13)] -> xpath: //div[@data-id='2021-03-12']]]]><![CDATA[>
+Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (aec80868b6648f416a1686bc6740df13)] -> xpath: (//div[@class='counter__button-wrapper--enabled'])[1]]]]><![CDATA[>
+Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (aec80868b6648f416a1686bc6740df13)] -> xpath: (//div[@class='counter__button-wrapper--enabled'])[4]]]]><![CDATA[>
+Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (aec80868b6648f416a1686bc6740df13)] -> xpath: (//button[contains(text(),'Done')])[1]]]]><![CDATA[>
+Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (aec80868b6648f416a1686bc6740df13)] -> xpath: (//div[@class='_background'])[1]]]]><![CDATA[>
+Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (aec80868b6648f416a1686bc6740df13)] -> xpath: (//button[@class='flight-search-widget__start-search ry-button--gradient-yellow ng-trigger ng-trigger-collapseExpandCta'])[1]]]]><![CDATA[>
+Successfully clicked on the WebElement: <Proxy element for: DefaultElementLocator 'By.xpath: (//flight-info[@class='card-info__col card-info__col--stretch'])[1]'>
+Successfully clicked on the WebElement: <Proxy element for: DefaultElementLocator 'By.xpath: (//span[@class='fare-card__button-text ng-star-inserted'])[1]'>
+Successfully clicked on the WebElement: <Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='login-touchpoint__chevron-container']'>
+Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (aec80868b6648f416a1686bc6740df13)] -> xpath: (//div[@class='dropdown b2'])[1]]]]><![CDATA[>
+Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (aec80868b6648f416a1686bc6740df13)] -> xpath: (//ry-dropdown-item[@class='ng-star-inserted'])[1]]]]><![CDATA[>
+WebElement is visible using locator: <[[ChromeDriver: chrome on XP (aec80868b6648f416a1686bc6740df13)] -> xpath: (//input[@id='formState.passengers.ADT-0.name'])[1]]]]><![CDATA[>
+Successfully Sent the following keys: 'John' to element: <[[ChromeDriver: chrome on XP (aec80868b6648f416a1686bc6740df13)] -> xpath: (//input[@id='formState.passengers.ADT-0.name'])[1]]]]><![CDATA[>
+WebElement is visible using locator: <[[ChromeDriver: chrome on XP (aec80868b6648f416a1686bc6740df13)] -> xpath: (//input[@id='formState.passengers.ADT-0.surname'])[1]]]]><![CDATA[>
+Successfully Sent the following keys: 'Barry' to element: <[[ChromeDriver: chrome on XP (aec80868b6648f416a1686bc6740df13)] -> xpath: (//input[@id='formState.passengers.ADT-0.surname'])[1]]]]><![CDATA[>
+Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (aec80868b6648f416a1686bc6740df13)] -> xpath: (//div[@class='dropdown b2'])[2]]]]><![CDATA[>
+Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (aec80868b6648f416a1686bc6740df13)] -> xpath: (//ry-dropdown-item[@class='ng-star-inserted'])[1]]]]><![CDATA[>
+WebElement is visible using locator: <[[ChromeDriver: chrome on XP (aec80868b6648f416a1686bc6740df13)] -> xpath: (//input[@id='formState.passengers.ADT-1.name'])[1]]]]><![CDATA[>
+Successfully Sent the following keys: 'Automation' to element: <[[ChromeDriver: chrome on XP (aec80868b6648f416a1686bc6740df13)] -> xpath: (//input[@id='formState.passengers.ADT-1.name'])[1]]]]><![CDATA[>
+WebElement is visible using locator: <[[ChromeDriver: chrome on XP (aec80868b6648f416a1686bc6740df13)] -> xpath: (//input[@id='formState.passengers.ADT-1.surname'])[1]]]]><![CDATA[>
+Successfully Sent the following keys: 'Test' to element: <[[ChromeDriver: chrome on XP (aec80868b6648f416a1686bc6740df13)] -> xpath: (//input[@id='formState.passengers.ADT-1.surname'])[1]]]]><![CDATA[>
+WebElement is visible using locator: <[[ChromeDriver: chrome on XP (aec80868b6648f416a1686bc6740df13)] -> xpath: (//input[@id='formState.passengers.CHD-0.name'])[1]]]]><![CDATA[>
+Successfully Sent the following keys: 'Harry' to element: <[[ChromeDriver: chrome on XP (aec80868b6648f416a1686bc6740df13)] -> xpath: (//input[@id='formState.passengers.CHD-0.name'])[1]]]]><![CDATA[>
+WebElement is visible using locator: <[[ChromeDriver: chrome on XP (aec80868b6648f416a1686bc6740df13)] -> xpath: (//input[@id='formState.passengers.CHD-0.surname'])[1]]]]><![CDATA[>
+Successfully Sent the following keys: 'Potter' to element: <[[ChromeDriver: chrome on XP (aec80868b6648f416a1686bc6740df13)] -> xpath: (//input[@id='formState.passengers.CHD-0.surname'])[1]]]]><![CDATA[>
+Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (aec80868b6648f416a1686bc6740df13)] -> xpath: //button[@class='continue-flow__button ry-button--gradient-yellow']]]]><![CDATA[>
+WebElement is clickable using locator: <[[ChromeDriver: chrome on XP (aec80868b6648f416a1686bc6740df13)] -> xpath: (//button[contains(text(),' Okay, got it. ')])[1]]]]><![CDATA[>
+Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (aec80868b6648f416a1686bc6740df13)] -> xpath: (//button[contains(text(),' Okay, got it. ')])[1]]]]><![CDATA[>
+Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (aec80868b6648f416a1686bc6740df13)] -> xpath: (//button[@class='ng-star-inserted seatmap__seat seatmap__seat--priority'])[1]]]]><![CDATA[>
+Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (aec80868b6648f416a1686bc6740df13)] -> xpath: (//button[@class='ng-star-inserted seatmap__seat seatmap__seat--priority'])[1]]]]><![CDATA[>
+Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (aec80868b6648f416a1686bc6740df13)] -> xpath: (//button[@class='ng-star-inserted seatmap__seat seatmap__seat--priority'])[1]]]]><![CDATA[>
+Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (aec80868b6648f416a1686bc6740df13)] -> xpath: //button[@class='ry-button ry-button--gradient-yellow seats-action__button ry-button--flat-blue']]]]><![CDATA[>
+Successfully clicked on the WebElement: <Proxy element for: DefaultElementLocator 'By.xpath: (//button[@class='enhanced-takeover-beta__product-dismiss-cta ry-button--anchor-blue ry-button--anchor'])[1]'>
+Successfully clicked on the WebElement: <Proxy element for: DefaultElementLocator 'By.xpath: (//label[@class='ry-radio-circle-button__label'])[1]'>
+Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (aec80868b6648f416a1686bc6740df13)] -> xpath: (//button[@class='ry-button--gradient-yellow'])[1]]]]><![CDATA[>
+Successfully clicked on the WebElement: <Proxy element for: DefaultElementLocator 'By.xpath: (//button[@class='ry-button--full ng-tns-c167-1 ry-button--gradient-yellow ry-button--large'])[1]'>
+Successfully clicked on the WebElement: <Proxy element for: DefaultElementLocator 'By.xpath: (//div[@class='basket-total'])[1]'>
+Successfully clicked on the WebElement: <[[ChromeDriver: chrome on XP (aec80868b6648f416a1686bc6740df13)] -> xpath: (//button[@class='ry-button--full ry-button--gradient-yellow'])[1]]]]><![CDATA[>
+WebElement is NOT visible, using locator: <[[ChromeDriver: chrome on XP (aec80868b6648f416a1686bc6740df13)] -> xpath: (//input[@name='undefined'])[1]]]]><![CDATA[>
+Unable to locate WebElement: <[[ChromeDriver: chrome on XP (aec80868b6648f416a1686bc6740df13)] -> xpath: (//input[@name='undefined'])[1]]]]><![CDATA[> and send the following keys: 083482922312
+Unable to wait and click on WebElement, Exception: element click intercepted: Element <div _ngcontent-ryanair-payment-c50="" class="_label">...</div> is not clickable at point (393, 279). Other element would receive the click: <ry-overlay _ngcontent-ryanair-payment-c66="" _nghost-ryanair-payment-c68=""></ry-overlay>
+  (Session info: chrome=78.0.3904.87)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'ND9VS3X2', ip: '192.168.0.164', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.87, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\MirH\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58176}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: aec80868b6648f416a1686bc6740df13
+2020-11-30 19:11:462 INFO  ServiceHooks :45 - Login into Ryanair, Book a flight, enter invalid card information and payment is declined is Failed
+
+  @test1
+  Scenario Outline: Login into Ryanair, Book a flight, enter invalid card information and payment is declined # src/test/resources/features/ryanair/ryanair_payment_test.feature:10
+    Given I make a booking from DUB to BER on 12/03/2020 for 2 adults and 1 child                             # RyanAirProjectStepDefinitions.IMakeABooking()
+    When I pay for booking with card details "5555 5555 5555 5557" , 10/21 and "265"                          # RyanAirProjectStepDefinitions.IPayForBookingWithCardDetails(String,String)
+      junit.framework.AssertionFailedError: Unable to wait and click on the WebElement, using locator: <[[ChromeDriver: chrome on XP (aec80868b6648f416a1686bc6740df13)] -> xpath: (//div[@class='_label'])[2]]]]><![CDATA[>
+      	at junit.framework.Assert.fail(Assert.java:57)
+      	at com.cucumberFramework.helper.SeleniumUtils.waitAndClickElement(SeleniumUtils.java:64)
+      	at com.cucumberFramework.pageObjects.ContactDetailsPage.enterPhoneNumberAndUnCheckBoxes(ContactDetailsPage.java:146)
+      	at com.cucumberFramework.pageObjects.ContactDetailsPage.enterCardDetailsAndClickPayNow(ContactDetailsPage.java:102)
+      	at com.cucumberFramework.stepdefinitions.RyanAirProjectStepDefinitions.IPayForBookingWithCardDetails(RyanAirProjectStepDefinitions.java:61)
+      	at ?.When I pay for booking with card details "5555 5555 5555 5557" , 10/21 and "265"(src/test/resources/features/ryanair/ryanair_payment_test.feature:5)
+
+    Then I should get payment declined message                                                                # RyanAirProjectStepDefinitions.IShouldGetPaymentDeclinedMessage()
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Nov 30, 2020 6:59:37 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}) on port 25407
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Nov 30, 2020 6:59:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="feature" classname="com.cucumberFramework.testRunner.TestRunner2" time="40.306"/>
+</testsuite>
